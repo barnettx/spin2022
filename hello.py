@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import pygit2
 
 print("""<html>
 <body>
