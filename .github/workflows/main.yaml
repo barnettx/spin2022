@@ -26,6 +26,7 @@ jobs:
         run:  |
           sudo apt update
           sudo apt-get install -y python3
+          sudo apt-get install -y python3-pygit2
 
       # create a demo website
       - name: Create HTML file
