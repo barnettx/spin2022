@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import pygit2
 
+repo = pygit2.Repository('./')
+
 print("""<html>
 <body>
 <p>Hello, Roland!<p/>""")
